@@ -1,0 +1,96 @@
+/*
+--blue: #2d00f7ff;
+--electric-indigo: #6a00f4ff;
+--electric-violet: #8900f2ff;
+--purple-x-11: #a100f2ff;
+--purple-x-11-2: #b100e8ff;
+--electric-purple: #bc00ddff;
+--steel-pink: #d100d1ff;
+--steel-pink-2: #db00b6ff;
+--fashion-fuchsia: #e500a4ff;
+--magenta-process: #f20089ff;
+
+font-family: 'Gloria Hallelujah', cursive;
+ */
+
+
+body{
+    background-color: rgb(8, 2, 7);   
+
+}
+
+
+h1 {
+    font-family:'Gloria Hallelujah', cursive;
+    text-shadow: 0px 0px 15px rgb(238, 8, 219);
+    color: #bc00ddff;
+    text-align: center;
+    font-size: 70px;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.reset{
+    margin:auto;
+    font-family:'Gloria Hallelujah', cursive;
+    text-align: center;
+    font-size: 35px;
+    color: #6a00f4ff;
+    border-radius: 25px;
+    background-color: #d100d1ff;
+    width: 150px;
+    height: 70px;
+    box-shadow: 0px 0px 30px 20px rgb(255, 0, 98);
+}
+
+.container{
+    width: 900px;
+    height: 900px;
+    font-size: 60px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    border: solid 8px rgba(255, 255, 255, 0.2);
+    background-color: rgba(0, 0, 0, 0.01);
+    margin: 17px;
+    border-radius: 20px;
+    align-content: center;
+    font-size: 120px;
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+    min-width: 250px;
+    min-height:250px;
+    box-shadow: 30px 14px 20px 0px rgba(19, 4, 4, 0.5);
+}
+
+.x{
+    background-color: #6a00f4ff; 
+    /* Firefox */
+    -moz-transition: all 1s ease-in;
+    /* WebKit */
+    -webkit-transition: all 1s ease-in;
+    /* Opera */
+    -o-transition: all 1s ease-in;
+    /* Standard */
+    transition: all 1s ease-in;
+
+    box-shadow: 0px 0px 30px 20px rgba(0, 225, 255, .75);
+}
+
+.o{
+    background-color: #f20089ff;
+     /* Firefox */
+    -moz-transition: all 1.5s ease-in;
+    /* WebKit */
+    -webkit-transition: all 1.5s ease-in;
+    /* Opera */
+    -o-transition: all 1.5s ease-in;
+    /* Standard */
+    transition: all 1.5s ease-in;
+
+    box-shadow: 0px 0px 30px 20px rgb(255, 0, 98);
+}
