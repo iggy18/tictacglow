@@ -14,6 +14,7 @@ font-family: 'Gloria Hallelujah', cursive;
  */
 
 
+
 body{
     background-color: rgb(8, 2, 7);   
 
@@ -30,6 +31,27 @@ h1 {
     margin-top: 15px;
 }
 
+#winner {
+    font-family:'Gloria Hallelujah', cursive;
+    text-shadow: 0px 0px 15px rgb(238, 8, 219);
+    color: #bc00ddff;
+    text-align: center;
+    font-size: 70px;
+    margin: auto;
+    margin-top: 15px;
+    -moz-transition: all 1s ease-in;
+    /* WebKit */
+    -webkit-transition: all 1s ease-in;
+    /* Opera */
+    -o-transition: all 1s ease-in;
+    /* Standard */
+    transition: all 1s ease-in;
+}
+
+.header {
+    margin: auto;
+}
+
 .reset{
     margin:auto;
     font-family:'Gloria Hallelujah', cursive;
@@ -44,8 +66,8 @@ h1 {
 }
 
 .container{
-    width: 900px;
-    height: 900px;
+    width: 980px;
+    height: 980px;
     font-size: 60px;
     margin: auto;
     margin-top: 100px;
@@ -94,3 +116,4 @@ h1 {
 
     box-shadow: 0px 0px 30px 20px rgb(255, 0, 98);
 }
+
